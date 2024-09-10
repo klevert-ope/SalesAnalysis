@@ -3,6 +3,7 @@
 #include <map>
 
 // ANSI color codes
+const std::string RESET = "\033[0m";
 const std::string GREEN = "\033[32m";
 const std::string MAGENTA = "\033[35m";
 
@@ -29,9 +30,9 @@ void SalesAnalysis::compareSalesByRegion(const std::vector<SalesRecord>& records
         salesByRegion[record.region] += record.sales;
     }
 
-    std::cout << MAGENTA << "Sales by Region:" << std::endl;
+    std::cout << MAGENTA << "Sales by Region:" << RESET << std::endl;
     for (const auto& entry : salesByRegion) {
-        std::cout << GREEN << entry.first << ": $" << entry.second << std::endl;
+        std::cout << GREEN << entry.first << ": $" << entry.second << RESET << std::endl;
     }
 }
 
@@ -42,8 +43,8 @@ void SalesAnalysis::compareSalesByCategory(const std::vector<SalesRecord>& recor
         salesByCategory[record.category] += record.sales;
     }
 
-    std::cout << MAGENTA << "Sales by Category:" << std::endl;
+    std::cout << MAGENTA << "Sales by Category:" << RESET << std::endl;
     for (const auto& entry : salesByCategory) {
-        std::cout << GREEN << entry.first << ": $" << entry.second << std::endl;
+        std::cout << GREEN << entry.first << ": $" << entry.second << RESET << std::endl;
     }
 }
