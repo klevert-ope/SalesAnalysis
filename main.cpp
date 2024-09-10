@@ -3,6 +3,7 @@
 #include <iostream>
 #include <iomanip>
 #include <limits>
+#include <vector>
 
 // ANSI color codes
 const std::string RESET = "\033[0m";
@@ -40,6 +41,8 @@ int main() {
         std::cout << "2. Total Profit\n";
         std::cout << "3. Compare Sales by Region\n";
         std::cout << "4. Compare Sales by Category\n";
+        std::cout << "5. Compare Sales by Product\n";
+        std::cout << "6. Find Highest Selling Product\n";
         std::cout << "0. Exit\n";
         std::cout << "Enter your choice: ";
         std::cin >> choice;
@@ -68,11 +71,17 @@ int main() {
             case 4:
                 SalesAnalysis::compareSalesByCategory(records);
                 break;
+            case 5:
+                SalesAnalysis::compareSalesByProduct(records);
+                break;
+            case 6:
+                SalesAnalysis::findHighestSellingProduct(records);
+                break;
             case 0:
                 std::cout << YELLOW << "Exiting program." << RESET << std::endl;
                 break;
             default:
-                printError("Invalid choice. Please enter a number between 0 and 4.");
+                printError("Invalid choice. Please enter a number between 0 and 6.");
         }
     } while (choice != 0);
 
