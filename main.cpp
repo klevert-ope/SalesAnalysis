@@ -1,7 +1,6 @@
 #include "DataParser.h"
 #include "SalesAnalysis.h"
 #include <iostream>
-#include <iomanip>
 #include <limits>
 #include <vector>
 
@@ -27,6 +26,7 @@ void printError(const std::string& message) {
 }
 
 int main() {
+    // Load sales data from CSV file
     std::vector<SalesRecord> records = DataParser::parseCSV("C:/Users/HomePC/CLionProjects/SalesAnalysis/data/orders_superstore.csv");
 
     if (records.empty()) {
@@ -37,17 +37,19 @@ int main() {
     int choice;
     do {
         printHeader("Select an Analysis Option");
-        std::cout << "1. Total Sales\n";
-        std::cout << "2. Total Profit\n";
-        std::cout << "3. Compare Sales by Region\n";
-        std::cout << "4. Compare Sales by Category\n";
-        std::cout << "5. Compare Sales by Product\n";
-        std::cout << "6. Find Highest Selling Product\n";
+        std::cout << "1. Analyze Sales by Customer Segment\n";
+        std::cout << "2. Analyze Sales Trends by Year\n";
+        std::cout << "3. Analyze Discount Impact\n";
+        std::cout << "4. Calculate Profit Margins by Category\n";
+        std::cout << "5. Analyze Sales by Shipping Mode\n";
+        std::cout << "6. Analyze Customer Loyalty (Orders per Customer)\n";
+        std::cout << "7. Calculate Sales Growth\n";
+        std::cout << "8. Find Top Customers by Sales\n";
         std::cout << "0. Exit\n";
         std::cout << "Enter your choice: ";
         std::cin >> choice;
 
-        // Check if input is valid integer
+        // Check if input is a valid integer
         if (std::cin.fail()) {
             std::cin.clear(); // Clear the error flag
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Discard invalid input
@@ -58,30 +60,37 @@ int main() {
         // Handle user's choice
         switch (choice) {
             case 1:
-                std::cout << GREEN << std::fixed << std::setprecision(2)
-                          << "Total Sales: $" << SalesAnalysis::calculateTotalSales(records) << RESET << std::endl;
+                SalesAnalysis::analyzeSalesByCustomerSegment(records);
                 break;
             case 2:
-                std::cout << GREEN << std::fixed << std::setprecision(2)
-                          << "Total Profit: $" << SalesAnalysis::calculateTotalProfit(records) << RESET << std::endl;
+                SalesAnalysis::analyzeSalesTrends(records);
                 break;
             case 3:
-                SalesAnalysis::compareSalesByRegion(records);
+                SalesAnalysis::analyzeDiscountImpact(records);
                 break;
             case 4:
-                SalesAnalysis::compareSalesByCategory(records);
+                SalesAnalysis::calculateProfitMargins(records);
                 break;
             case 5:
-                SalesAnalysis::compareSalesByProduct(records);
+                SalesAnalysis::analyzeSalesByShipMode(records);
                 break;
             case 6:
-                SalesAnalysis::findHighestSellingProduct(records);
+                SalesAnalysis::analyzeCustomerLoyalty(records);
+                break;
+            case 7:
+                SalesAnalysis::calculateSalesGrowth(records);
+                break;
+            case 8:
+                SalesAnalysis::findTopCustomersBySales(records);
+                break;
+            case 9:
+                SalesAnalysis::compareSalesByRegion(records);
                 break;
             case 0:
                 std::cout << YELLOW << "Exiting program." << RESET << std::endl;
                 break;
             default:
-                printError("Invalid choice. Please enter a number between 0 and 6.");
+                printError("Invalid choice. Please enter a number between 0 and 8.");
         }
     } while (choice != 0);
 

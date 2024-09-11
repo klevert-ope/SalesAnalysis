@@ -7,12 +7,23 @@
 
 class SalesAnalysis {
 public:
-    static double calculateTotalSales(const std::vector<SalesRecord>& records);
-    static double calculateTotalProfit(const std::vector<SalesRecord>& records);
-    static void compareSalesByRegion(const std::vector<SalesRecord>& records);
-    static void compareSalesByCategory(const std::vector<SalesRecord>& records);
-    static void compareSalesByProduct(const std::vector<SalesRecord>& records);
-    static void findHighestSellingProduct(const std::vector<SalesRecord>& records);
+    static void analyzeSalesByCustomerSegment(const std::vector<SalesRecord> &records);
+
+    static void analyzeSalesTrends(const std::vector<SalesRecord> &records);
+
+    static void analyzeDiscountImpact(const std::vector<SalesRecord> &records);
+
+    static void calculateProfitMargins(const std::vector<SalesRecord> &records);
+
+    static void analyzeSalesByShipMode(const std::vector<SalesRecord> &records);
+
+    static void analyzeCustomerLoyalty(const std::vector<SalesRecord> &records);
+
+    static double calculateSalesGrowth(const std::vector<SalesRecord> &records);
+
+    static void findTopCustomersBySales(const std::vector<SalesRecord> &records);
+
+    static void compareSalesByRegion(const std::vector<SalesRecord> &records);
 };
 
 
