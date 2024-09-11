@@ -45,6 +45,7 @@ int main() {
         std::cout << "6. Analyze Customer Loyalty (Orders per Customer)\n";
         std::cout << "7. Calculate Sales Growth\n";
         std::cout << "8. Find Top Customers by Sales\n";
+        std::cout << "9. Sales By Region\n";
         std::cout << "0. Exit\n";
         std::cout << "Enter your choice: ";
         std::cin >> choice;
