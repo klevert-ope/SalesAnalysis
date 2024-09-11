@@ -1,101 +1,21 @@
 Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment,Country,City,State,Postal Code,Region,Product ID,Category,Sub-Category,Product Name,Sales,Quantity,Discount,Profit
 1,CA-2021-1001,2021-01-01,2021-01-05,Standard Class,CUST001,John Doe,Consumer,United States,New York,NY,10001,Northeast,PROD001,Office Supplies,Binders,Blue Plastic Binder,20.00,5,0.1,2.50
-2,CA-2021-1002,2021-01-02,2021-01-07,Second Class,CUST002,Jane Smith,Corporate,United States,Los Angeles,CA,90001,West,PROD002,Office Supplies,Pens,Black Ink Pen,15.00,10,0.05,1.50
-3,CA-2021-1003,2021-01-03,2021-01-10,Express, CUST003,Bob Johnson,Consumer,United States,Chicago,IL,60601,Midwest,PROD003,Furniture,Chairs,Ergonomic Office Chair,120.00,2,0.2,25.00
-4,CA-2021-1004,2021-01-04,2021-01-12,Standard Class,CUST004,Alice Williams,Consumer,United States,Houston,TX,77001,South,PROD004,Furniture,Tables,Wooden Dining Table,250.00,1,0.15,40.00
-5,CA-2021-1005,2021-01-05,2021-01-15,Second Class,CUST005,Emily Davis,Corporate,United States,San Francisco,CA,94101,West,PROD005,Office Supplies,Desk Organizers,Wood Desk Organizer,35.00,3,0.1,5.25
-6,CA-2021-1006,2021-01-06,2021-01-16,Standard Class,CUST006,Michael Brown,Consumer,United States,Philadelphia,PA,19101,Northeast,PROD006,Office Supplies,Notebooks,Spiral Notebook,25.00,7,0.05,4.00
-7,CA-2021-1007,2021-01-07,2021-01-17,Second Class,CUST007,Susan Wilson,Corporate,United States,Phoenix,AZ,85001,West,PROD007,Furniture,Desks,Standing Desk,200.00,1,0.1,15.00
-8,CA-2021-1008,2021-01-08,2021-01-18,Express,CUST008,James Martinez,Consumer,United States,San Antonio,TX,78201,South,PROD008,Office Supplies,Labels,Sticky Labels,30.00,4,0.1,6.00
-9,CA-2021-1009,2021-01-09,2021-01-19,Standard Class,CUST009,Linda Lee,Consumer,United States,Dallas,TX,75201,South,PROD009,Office Supplies,File Folders,Plastic File Folders,18.00,6,0.05,2.70
-10,CA-2021-1010,2021-01-10,2021-01-20,Second Class,CUST010,Robert Harris,Corporate,United States,San Diego,CA,92101,West,PROD010,Furniture,Bookshelves,Wooden Bookshelf,160.00,2,0.1,32.00
-11,CA-2021-1011,2021-01-11,2021-01-21,Express,CUST011,Laura Clark,Consumer,United States,San Jose,CA,95101,West,PROD011,Office Supplies,Mouse Pads,Ergonomic Mouse Pad,22.00,8,0.1,4.40
-12,CA-2021-1012,2021-01-12,2021-01-22,Standard Class,CUST012,David Lewis,Corporate,United States,Jacksonville,FL,32201,South,PROD012,Furniture,Conference Tables,Glass Conference Table,350.00,1,0.2,70.00
-13,CA-2021-1013,2021-01-13,2021-01-23,Second Class,CUST013,Jessica Walker,Consumer,United States,Indianapolis,IN,46201,Midwest,PROD013,Office Supplies,Paper Clips,Metal Paper Clips,10.00,12,0.05,1.20
-14,CA-2021-1014,2021-01-14,2021-01-24,Express,CUST014,Daniel Scott,Corporate,United States,Columbus,OH,43201,Midwest,PROD014,Furniture,Executive Chairs,Leather Executive Chair,150.00,3,0.15,45.00
-15,CA-2021-1015,2021-01-15,2021-01-25,Standard Class,CUST015,Sarah Young,Consumer,United States,Fort Worth,TX,76101,South,PROD015,Office Supplies,Printer Paper,Ream of Printer Paper,12.00,10,0.1,1.20
-16,CA-2021-1016,2021-01-16,2021-01-26,Second Class,CUST016,Chris Hill,Corporate,United States,Charlotte,NC,28201,Southeast,PROD016,Furniture,Storage Cabinets,Metal Storage Cabinet,180.00,2,0.1,36.00
-17,CA-2021-1017,2021-01-17,2021-01-27,Express,CUST017,Amy Adams,Consumer,United States,Detroit,MI,48201,Midwest,PROD017,Office Supplies,Desk Lamps,LED Desk Lamp,28.00,5,0.1,4.40
-18,CA-2021-1018,2021-01-18,2021-01-28,Standard Class,CUST018,Mark Robinson,Consumer,United States,El Paso,TX,79901,South,PROD018,Office Supplies,Calendars,Wall Calendar,20.00,7,0.05,2.80
-19,CA-2021-1019,2021-01-19,2021-01-29,Second Class,CUST019,Emily Hall,Corporate,United States,Memphis,TN,38101,Southeast,PROD019,Furniture,Meeting Tables,Round Meeting Table,220.00,1,0.1,22.00
-20,CA-2021-1020,2021-01-20,2021-01-30,Express,CUST020,Michael Green,Consumer,United States,Boston,MA,02101,Northeast,PROD020,Office Supplies,Staplers,Heavy Duty Stapler,25.00,4,0.1,5.00
-21,CA-2021-1021,2021-01-21,2021-01-31,Standard Class,CUST021,Jessica Davis,Corporate,United States,Seattle,WA,98101,West,PROD021,Furniture,Computer Desks,Adjustable Computer Desk,190.00,3,0.15,57.00
-22,CA-2021-1022,2021-01-22,2021-02-01,Second Class,CUST022,William Lewis,Consumer,United States,Denver,CO,80201,West,PROD022,Office Supplies,Notebooks,Hardcover Notebook,18.00,5,0.1,2.70
-23,CA-2021-1023,2021-01-23,2021-02-02,Express,CUST023,Olivia Wilson,Corporate,United States,Washington,DC,20001,Northeast,PROD023,Furniture,File Cabinets,Metal File Cabinet,210.00,2,0.1,42.00
-24,CA-2021-1024,2021-01-24,2021-02-03,Standard Class,CUST024,James Anderson,Consumer,United States,Atlanta,GA,30301,Southeast,PROD024,Office Supplies,Clipboard,Plastic Clipboard,14.00,8,0.05,2.24
-25,CA-2021-1025,2021-01-25,2021-02-04,Second Class,CUST025,Sarah Johnson,Corporate,United States,Minneapolis,MN,55401,Midwest,PROD025,Furniture,Office Partitions,Wooden Partitions,270.00,2,0.15,81.00
-26,CA-2021-1026,2021-01-26,2021-02-05,Express,CUST026,Christopher Martinez,Consumer,United States,Baltimore,MD,21201,Northeast,PROD026,Office Supplies,Envelopes,Pack of Envelopes,12.00,15,0.1,1.80
-27,CA-2021-1027,2021-01-27,2021-02-06,Standard Class,CUST027,Patricia Clark,Corporate,United States,Colorado Springs,CO,80901,West,PROD027,Furniture,Office Chairs,Mesh Office Chair,130.00,3,0.2,39.00
-28,CA-2021-1028,2021-01-28,2021-02-07,Second Class,CUST028,Daniel Robinson,Consumer,United States,St. Louis,MO,63101,Midwest,PROD028,Office Supplies,Whiteboards,Magnetic Whiteboard,50.00,2,0.1,10.00
-29,CA-2021-1029,2021-01-29,2021-02-08,Express,CUST029,Elizabeth Walker,Corporate,United States,Kansas City,MO,64101,Midwest,PROD029,Furniture,Meeting Room Chairs,Stackable Chairs,140.00,4,0.1,28.00
-30,CA-2021-1030,2021-01-30,2021-02-09,Standard Class,CUST030,James Young,Consumer,United States,Miami,FL,33101,South,PROD030,Office Supplies,Binders,3-Ring Binder,22.00,6,0.05,3.30
-31,CA-2021-1031,2021-01-31,2021-02-10,Second Class,CUST031,Kimberly Green,Corporate,United States,Tucson,AZ,85701,West,PROD031,Furniture,Office Shelves,Wall Mounted Shelves,175.00,1,0.15,26.25
-32,CA-2021-1032,2021-02-01,2021-02-11,Express,CUST032,Ryan White,Consumer,United States,Atlanta,GA,30301,Southeast,PROD032,Office Supplies,Desk Accessories,Desk Organizer Set,40.00,4,0.1,8.00
-33,CA-2021-1033,2021-02-02,2021-02-12,Standard Class,CUST033,Alice Anderson,Corporate,United States,Orlando,FL,32801,South,PROD033,Furniture,Reception Desks,Custom Reception Desk,250.00,1,0.2,50.00
-34,CA-2021-1034,2021-02-03,2021-02-13,Second Class,CUST034,John Harris,Consumer,United States,Indianapolis,IN,46201,Midwest,PROD034,Office Supplies,Calculators,Scientific Calculator,35.00,3,0.1,7.00
-35,CA-2021-1035,2021-02-04,2021-02-14,Express,CUST035,Emma Nelson,Corporate,United States,Columbus,OH,43201,Midwest,PROD035,Furniture,Conference Chairs,Ergonomic Conference Chairs,170.00,2,0.15,51.00
-36,CA-2021-1036,2021-02-05,2021-02-15,Standard Class,CUST036,Mary Turner,Consumer,United States,San Diego,CA,92101,West,PROD036,Office Supplies,Sticky Notes,Post-it Notes,18.00,6,0.05,2.70
-37,CA-2021-1037,2021-02-06,2021-02-16,Second Class,CUST037,David King,Corporate,United States,San Jose,CA,95101,West,PROD037,Furniture,File Cabinets,Wooden File Cabinet,210.00,2,0.1,42.00
-38,CA-2021-1038,2021-02-07,2021-02-17,Express,CUST038,Susan Wright,Consumer,United States,San Antonio,TX,78201,South,PROD038,Office Supplies,Office Chairs,Adjustable Office Chair,130.00,4,0.1,13.00
-39,CA-2021-1039,2021-02-08,2021-02-18,Standard Class,CUST039,Robert Lee,Corporate,United States,New York,NY,10001,Northeast,PROD039,Furniture,Desks,Glass Desk,180.00,1,0.1,18.00
-40,CA-2021-1040,2021-02-09,2021-02-19,Second Class,CUST040,Jessica Harris,Consumer,United States,Philadelphia,PA,19101,Northeast,PROD040,Office Supplies,Desk Pads,Leather Desk Pad,30.00,5,0.1,6.00
-41,CA-2021-1041,2021-02-10,2021-02-20,Express,CUST041,Chris Martinez,Corporate,United States,Dallas,TX,75201,South,PROD041,Furniture,Reception Chairs,Plastic Reception Chairs,140.00,3,0.1,42.00
-42,CA-2021-1042,2021-02-11,2021-02-21,Standard Class,CUST042,Lisa Adams,Consumer,United States,New Orleans,LA,70112,South,PROD042,Office Supplies,Office Storage,Metal Storage Box,20.00,8,0.05,3.20
-43,CA-2021-1043,2021-02-12,2021-02-22,Second Class,CUST043,Michael Harris,Corporate,United States,Chicago,IL,60601,Midwest,PROD043,Furniture,Office Tables,Round Office Table,250.00,1,0.2,50.00
-44,CA-2021-1044,2021-02-13,2021-02-23,Express,CUST044,Patricia Wright,Consumer,United States,Los Angeles,CA,90001,West,PROD044,Office Supplies,Desk Accessories,Desk Organizer,28.00,5,0.1,4.40
-45,CA-2021-1045,2021-02-14,2021-02-24,Standard Class,CUST045,James White,Corporate,United States,San Francisco,CA,94101,West,PROD045,Furniture,Office Chairs,Mesh Office Chairs,135.00,3,0.1,40.50
-46,CA-2021-1046,2021-02-15,2021-02-25,Second Class,CUST046,Laura Walker,Consumer,United States,Seattle,WA,98101,West,PROD046,Office Supplies,Office Supplies,Stationery Set,22.00,7,0.05,3.08
-47,CA-2021-1047,2021-02-16,2021-02-26,Express,CUST047,Andrew Robinson,Corporate,United States,Washington,DC,20001,Northeast,PROD047,Furniture,Conference Tables,Round Conference Table,220.00,1,0.1,22.00
-48,CA-2021-1048,2021-02-17,2021-02-27,Standard Class,CUST048,Jessica Johnson,Consumer,United States,Miami,FL,33101,South,PROD048,Office Supplies,Office Supplies,File Box,15.00,10,0.1,1.50
-49,CA-2021-1049,2021-02-18,2021-02-28,Second Class,CUST049,David Scott,Corporate,United States,Minneapolis,MN,55401,Midwest,PROD049,Furniture,Bookshelves,Wooden Bookshelves,150.00,2,0.1,30.00
-50,CA-2021-1050,2021-02-19,2021-02-29,Express,CUST050,Susan Davis,Consumer,United States,San Antonio,TX,78201,South,PROD050,Office Supplies,Office Chairs,Leather Office Chair,160.00,2,0.1,32.00
-51,CA-2021-1051,2021-03-01,2021-03-05,Standard Class,CUST051,Michael Young,Corporate,United States,Philadelphia,PA,19101,Northeast,PROD051,Furniture,Desks,Wooden Desk,200.00,1,0.15,30.00
-52,CA-2021-1052,2021-03-02,2021-03-06,Second Class,CUST052,Alice Brown,Consumer,United States,Los Angeles,CA,90001,West,PROD052,Office Supplies,Notebooks,Hardcover Notebook,22.00,6,0.1,3.30
-53,CA-2021-1053,2021-03-03,2021-03-07,Express,CUST053,John Davis,Corporate,United States,San Diego,CA,92101,West,PROD053,Furniture,Conference Tables,Glass Conference Table,260.00,1,0.2,52.00
-54,CA-2021-1054,2021-03-04,2021-03-08,Standard Class,CUST054,Emily Johnson,Consumer,United States,Chicago,IL,60601,Midwest,PROD054,Office Supplies,Desk Pads,Leather Desk Pad,30.00,4,0.1,6.00
-55,CA-2021-1055,2021-03-05,2021-03-09,Second Class,CUST055,James Wilson,Corporate,United States,Houston,TX,77001,South,PROD055,Furniture,Office Chairs,Ergonomic Office Chair,150.00,2,0.1,30.00
-56,CA-2021-1056,2021-03-06,2021-03-10,Express,CUST056,Laura Lewis,Consumer,United States,San Francisco,CA,94101,West,PROD056,Office Supplies,Sticky Labels,Pack of Sticky Labels,24.00,5,0.1,4.80
-57,CA-2021-1057,2021-03-07,2021-03-11,Standard Class,CUST057,Michael Harris,Corporate,United States,Philadelphia,PA,19101,Northeast,PROD057,Furniture,Office Shelves,Metal Office Shelves,175.00,1,0.15,26.25
-58,CA-2021-1058,2021-03-08,2021-03-12,Second Class,CUST058,Susan Walker,Consumer,United States,San Antonio,TX,78201,South,PROD058,Office Supplies,File Folders,Plastic File Folders,20.00,8,0.1,4.00
-59,CA-2021-1059,2021-03-09,2021-03-13,Express,CUST059,Robert Green,Corporate,United States,New York,NY,10001,Northeast,PROD059,Furniture,Office Desks,Glass Office Desk,210.00,1,0.1,21.00
-60,CA-2021-1060,2021-03-10,2021-03-14,Standard Class,CUST060,Emily Roberts,Consumer,United States,Los Angeles,CA,90001,West,PROD060,Office Supplies,Desk Supplies,Desk Organizer,25.00,7,0.1,5.25
-61,CA-2021-1061,2021-03-11,2021-03-15,Second Class,CUST061,John Martinez,Corporate,United States,San Diego,CA,92101,West,PROD061,Furniture,Meeting Tables,Wooden Meeting Table,240.00,1,0.2,48.00
-62,CA-2021-1062,2021-03-12,2021-03-16,Express,CUST062,Alice Thompson,Consumer,United States,Chicago,IL,60601,Midwest,PROD062,Office Supplies,Mouse Pads,Custom Mouse Pad,18.00,6,0.1,3.60
-63,CA-2021-1063,2021-03-13,2021-03-17,Standard Class,CUST063,Robert Young,Corporate,United States,Miami,FL,33101,South,PROD063,Furniture,Conference Chairs,Wooden Conference Chairs,160.00,3,0.1,48.00
-64,CA-2021-1064,2021-03-14,2021-03-18,Second Class,CUST064,Emily Green,Consumer,United States,Seattle,WA,98101,West,PROD064,Office Supplies,Desk Organizers,Plastic Desk Organizers,28.00,5,0.1,4.40
-65,CA-2021-1065,2021-03-15,2021-03-19,Express,CUST065,Michael Johnson,Corporate,United States,San Francisco,CA,94101,West,PROD065,Furniture,Reception Desks,Wooden Reception Desk,250.00,1,0.2,50.00
-66,CA-2021-1066,2021-03-16,2021-03-20,Standard Class,CUST066,Laura Davis,Consumer,United States,Houston,TX,77001,South,PROD066,Office Supplies,Sticky Notes,Colored Sticky Notes,20.00,7,0.05,2.80
-67,CA-2021-1067,2021-03-17,2021-03-21,Second Class,CUST067,Chris Wilson,Corporate,United States,Indianapolis,IN,46201,Midwest,PROD067,Furniture,Office Tables,Round Office Table,200.00,1,0.1,20.00
-68,CA-2021-1068,2021-03-18,2021-03-22,Express,CUST068,Jessica Adams,Consumer,United States,San Jose,CA,95101,West,PROD068,Office Supplies,Desk Accessories,Leather Desk Accessories,30.00,4,0.1,6.00
-69,CA-2021-1069,2021-03-19,2021-03-23,Standard Class,CUST069,John Scott,Corporate,United States,San Antonio,TX,78201,South,PROD069,Furniture,Desks,Glass Desk,180.00,2,0.15,54.00
-70,CA-2021-1070,2021-03-20,2021-03-24,Second Class,CUST070,Alice Young,Consumer,United States,Columbus,OH,43201,Midwest,PROD070,Office Supplies,Desk Pads,Custom Desk Pad,28.00,6,0.1,4.20
-71,CA-2021-1071,2021-03-21,2021-03-25,Express,CUST071,Emily Brown,Corporate,United States,Columbus,OH,43201,Midwest,PROD071,Furniture,Meeting Tables,Glass Meeting Table,220.00,1,0.2,44.00
-72,CA-2021-1072,2021-03-22,2021-03-26,Standard Class,CUST072,John Smith,Consumer,United States,Miami,FL,33101,South,PROD072,Office Supplies,Office Supplies,Letterhead Paper,18.00,8,0.05,3.60
-73,CA-2021-1073,2021-03-23,2021-03-27,Second Class,CUST073,Susan Davis,Corporate,United States,Chicago,IL,60601,Midwest,PROD073,Furniture,Bookshelves,Wooden Bookshelves,150.00,2,0.1,30.00
-74,CA-2021-1074,2021-03-24,2021-03-28,Express,CUST074,Robert Adams,Consumer,United States,San Diego,CA,92101,West,PROD074,Office Supplies,Desk Organizers,Wood Desk Organizers,40.00,4,0.1,8.00
-75,CA-2021-1075,2021-03-25,2021-03-29,Standard Class,CUST075,Emily Walker,Corporate,United States,San Francisco,CA,94101,West,PROD075,Furniture,Conference Chairs,Mesh Conference Chairs,160.00,2,0.1,32.00
-76,CA-2021-1076,2021-03-26,2021-03-30,Second Class,CUST076,Michael Clark,Consumer,United States,Indianapolis,IN,46201,Midwest,PROD076,Office Supplies,Desk Organizers,Metal Desk Organizers,30.00,5,0.1,6.00
-77,CA-2021-1077,2021-03-27,2021-03-31,Express,CUST077,Jane Johnson,Corporate,United States,Philadelphia,PA,19101,Northeast,PROD077,Furniture,Reception Chairs,Leather Reception Chairs,200.00,1,0.2,40.00
-78,CA-2021-1078,2021-03-28,2021-04-01,Standard Class,CUST078,Robert Thompson,Consumer,United States,San Jose,CA,95101,West,PROD078,Office Supplies,Sticky Notes,Colorful Sticky Notes,22.00,6,0.1,4.40
-79,CA-2021-1079,2021-03-29,2021-04-02,Second Class,CUST079,Lisa White,Corporate,United States,San Francisco,CA,94101,West,PROD079,Furniture,Reception Desks,Wooden Reception Desks,250.00,1,0.2,50.00
-80,CA-2021-1080,2021-03-30,2021-04-03,Express,CUST080,Chris Clark,Consumer,United States,Miami,FL,33101,South,PROD080,Office Supplies,Desk Accessories,Custom Desk Accessories,30.00,4,0.1,6.00
-81,CA-2021-1081,2021-04-01,2021-04-05,Standard Class,CUST081,Alice Green,Corporate,United States,Chicago,IL,60601,Midwest,PROD081,Furniture,Office Tables,Glass Office Tables,220.00,1,0.1,22.00
-82,CA-2021-1082,2021-04-02,2021-04-06,Second Class,CUST082,David Martinez,Consumer,United States,San Antonio,TX,78201,South,PROD082,Office Supplies,Office Supplies,Sticky Note Pack,18.00,7,0.05,2.52
-83,CA-2021-1083,2021-04-03,2021-04-07,Express,CUST083,Emily Adams,Corporate,United States,Indianapolis,IN,46201,Midwest,PROD083,Furniture,Conference Tables,Wooden Conference Tables,260.00,1,0.2,52.00
-84,CA-2021-1084,2021-04-04,2021-04-08,Standard Class,CUST084,John Harris,Consumer,United States,Columbus,OH,43201,Midwest,PROD084,Office Supplies,Desk Accessories,Plastic Desk Accessories,30.00,5,0.1,6.00
-85,CA-2021-1085,2021-04-05,2021-04-09,Second Class,CUST085,Jessica Wilson,Corporate,United States,San Jose,CA,95101,West,PROD085,Furniture,Meeting Chairs,Leather Meeting Chairs,180.00,2,0.1,36.00
-86,CA-2021-1086,2021-04-06,2021-04-10,Express,CUST086,Michael Young,Consumer,United States,Seattle,WA,98101,West,PROD086,Office Supplies,Desk Accessories,Leather Desk Accessories,35.00,4,0.1,7.00
-87,CA-2021-1087,2021-04-07,2021-04-11,Standard Class,CUST087,Emily Roberts,Consumer,United States,Los Angeles,CA,90001,West,PROD087,Furniture,Office Desks,Wooden Office Desk,210.00,1,0.2,42.00
-88,CA-2021-1088,2021-04-08,2021-04-12,Second Class,CUST088,John Martinez,Corporate,United States,San Diego,CA,92101,West,PROD088,Furniture,Meeting Tables,Wooden Meeting Table,240.00,1,0.2,48.00
-89,CA-2021-1089,2021-04-09,2021-04-13,Express,CUST089,Alice Thompson,Consumer,United States,Chicago,IL,60601,Midwest,PROD089,Office Supplies,Mouse Pads,Custom Mouse Pad,18.00,6,0.1,3.60
-90,CA-2021-1090,2021-04-10,2021-04-14,Standard Class,CUST090,Robert Young,Corporate,United States,Miami,FL,33101,South,PROD090,Furniture,Conference Chairs,Wooden Conference Chairs,160.00,3,0.1,48.00
-91,CA-2021-1091,2021-04-11,2021-04-15,Second Class,CUST091,Emily Green,Consumer,United States,Seattle,WA,98101,West,PROD091,Office Supplies,Desk Organizers,Plastic Desk Organizers,28.00,5,0.1,4.40
-92,CA-2021-1092,2021-04-12,2021-04-16,Express,CUST092,Michael Johnson,Corporate,United States,San Francisco,CA,94101,West,PROD092,Furniture,Reception Desks,Wooden Reception Desks,250.00,1,0.2,50.00
-93,CA-2021-1093,2021-04-13,2021-04-17,Standard Class,CUST093,Alice Adams,Consumer,United States,Columbus,OH,43201,Midwest,PROD093,Office Supplies,Desk Pads,Custom Desk Pad,28.00,6,0.1,4.20
-94,CA-2021-1094,2021-04-14,2021-04-18,Second Class,CUST094,John Smith,Corporate,United States,Miami,FL,33101,South,PROD094,Furniture,Desks,Glass Desk,180.00,2,0.15,54.00
-95,CA-2021-1095,2021-04-15,2021-04-19,Express,CUST095,Susan Davis,Consumer,United States,Chicago,IL,60601,Midwest,PROD095,Office Supplies,Desk Accessories,Colored Desk Accessories,30.00,4,0.1,6.00
-96,CA-2021-1096,2021-04-16,2021-04-20,Standard Class,CUST096,Robert Adams,Corporate,United States,San Diego,CA,92101,West,PROD096,Furniture,Bookshelves,Wooden Bookshelves,150.00,2,0.1,30.00
-97,CA-2021-1097,2021-04-17,2021-04-21,Second Class,CUST097,Emily Walker,Consumer,United States,San Francisco,CA,94101,West,PROD097,Office Supplies,Desk Accessories,Leather Desk Accessories,35.00,4,0.1,7.00
-98,CA-2021-1098,2021-04-18,2021-04-22,Express,CUST098,John Clark,Corporate,United States,Philadelphia,PA,19101,Northeast,PROD098,Furniture,Reception Chairs,Leather Reception Chairs,200.00,1,0.2,40.00
-99,CA-2021-1099,2021-04-19,2021-04-23,Standard Class,CUST099,Alice Green,Consumer,United States,San Antonio,TX,78201,South,PROD099,Office Supplies,Sticky Notes,Colorful Sticky Notes,22.00,6,0.1,4.40
-100,CA-2021-1100,2021-04-20,2021-04-24,Second Class,CUST100,Michael Clark,Consumer,United States,Indianapolis,IN,46201,Midwest,PROD100,Office Supplies,Desk Organizers,Metal Desk Organizers,30.00,5,0.1,6.00
+2,CA-2022-1002,2022-03-15,2022-03-20,Second Class,CUST001,John Doe,Consumer,United States,New York,NY,10001,Northeast,PROD002,Office Supplies,Pens,Black Ink Pen,15.00,10,0.05,1.50
+3,CA-2021-1003,2021-04-10,2021-04-14,Express,CUST002,Jane Smith,Corporate,United States,Los Angeles,CA,90001,West,PROD003,Furniture,Chairs,Ergonomic Office Chair,120.00,2,0.2,25.00
+4,CA-2023-1004,2023-05-22,2023-05-26,Standard Class,CUST002,Jane Smith,Corporate,United States,Los Angeles,CA,90001,West,PROD004,Office Supplies,Notebooks,Spiral Notebook,25.00,5,0.1,4.00
+5,CA-2020-1005,2020-09-01,2020-09-05,Second Class,CUST003,Bob Johnson,Consumer,United States,Chicago,IL,60601,Midwest,PROD005,Furniture,Tables,Wooden Dining Table,250.00,1,0.15,40.00
+6,CA-2021-1006,2021-02-10,2021-02-14,Express,CUST004,Alice Williams,Consumer,United States,Houston,TX,77001,South,PROD006,Furniture,Storage Cabinets,Metal Storage Cabinet,180.00,2,0.1,36.00
+7,CA-2022-1007,2022-08-15,2022-08-19,Standard Class,CUST004,Alice Williams,Consumer,United States,Houston,TX,77001,South,PROD007,Office Supplies,Desk Organizers,Wood Desk Organizer,35.00,3,0.1,5.25
+8,CA-2023-1008,2023-11-05,2023-11-10,Second Class,CUST005,Emily Davis,Corporate,United States,San Francisco,CA,94101,West,PROD008,Furniture,Desks,Standing Desk,200.00,1,0.1,15.00
+9,CA-2020-1009,2020-12-01,2020-12-05,Express,CUST006,Michael Brown,Consumer,United States,Philadelphia,PA,19101,Northeast,PROD009,Office Supplies,Labels,Sticky Labels,30.00,4,0.1,6.00
+10,CA-2021-1010,2021-07-14,2021-07-18,Standard Class,CUST007,Susan Wilson,Corporate,United States,Phoenix,AZ,85001,West,PROD010,Furniture,Chairs,Leather Executive Chair,150.00,3,0.15,45.00
+11,CA-2022-1011,2022-04-20,2022-04-25,Second Class,CUST008,James Martinez,Consumer,United States,San Antonio,TX,78201,South,PROD011,Office Supplies,Printer Paper,Ream of Printer Paper,12.00,10,0.1,1.20
+12,CA-2023-1012,2023-02-18,2023-02-23,Express,CUST009,Linda Lee,Consumer,United States,Dallas,TX,75201,South,PROD012,Furniture,Conference Tables,Glass Conference Table,350.00,1,0.2,70.00
+13,CA-2020-1013,2020-11-05,2020-11-10,Second Class,CUST010,Robert Harris,Corporate,United States,San Diego,CA,92101,West,PROD013,Office Supplies,Notebooks,Hardcover Notebook,18.00,5,0.1,2.70
+14,CA-2021-1014,2021-08-25,2021-08-30,Express,CUST011,Laura Clark,Consumer,United States,San Jose,CA,95101,West,PROD014,Furniture,File Cabinets,Metal File Cabinet,210.00,2,0.1,42.00
+15,CA-2022-1015,2022-09-14,2022-09-19,Standard Class,CUST012,David Lewis,Corporate,United States,Jacksonville,FL,32201,South,PROD015,Office Supplies,Clipboard,Plastic Clipboard,14.00,8,0.05,2.24
+16,CA-2023-1016,2023-03-10,2023-03-15,Second Class,CUST013,Jessica Walker,Consumer,United States,Indianapolis,IN,46201,Midwest,PROD016,Furniture,Chairs,Mesh Office Chair,130.00,3,0.2,39.00
+17,CA-2020-1017,2020-10-20,2020-10-25,Express,CUST014,Daniel Scott,Corporate,United States,Columbus,OH,43201,Midwest,PROD017,Furniture,Meeting Tables,Round Meeting Table,220.00,1,0.1,22.00
+18,CA-2021-1018,2021-05-16,2021-05-20,Standard Class,CUST015,Sarah Young,Consumer,United States,Fort Worth,TX,76101,South,PROD018,Office Supplies,Staplers,Heavy Duty Stapler,25.00,4,0.1,5.00
+19,CA-2022-1019,2022-07-10,2022-07-15,Second Class,CUST016,Chris Hill,Corporate,United States,Charlotte,NC,28201,Southeast,PROD019,Furniture,Office Partitions,Wooden Partitions,270.00,2,0.15,81.00
+20,CA-2023-1020,2023-06-01,2023-06-06,Express,CUST017,Amy Adams,Consumer,United States,Detroit,MI,48201,Midwest,PROD020,Office Supplies,Desk Lamps,LED Desk Lamp,28.00,5,0.1,4.40
